@@ -1,3 +1,5 @@
+[[SQL]]
+
 ### Experimentos y muestreo
 	Tipos de experimentos:
 		Observacional: Se colectan aleatoriamente datos ya existentes, de manera             que la colección no intervenga con la generación de datos mismos.
@@ -32,6 +34,8 @@ Sea (A) el número total de edificios, (a) el número de edificios seleccionados
 	$$ s_{a} ^2 = \frac{1}{a-1}\sum _{i=1}^{a}(\overline{x_{a}}-\overline {x})^2$$
 	Error estandar de la media:
 	$$ \sqrt{1-\frac{a}{A}  }\frac {s_{a}}{\sqrt{a  }}$$
+
+
 
 
 
