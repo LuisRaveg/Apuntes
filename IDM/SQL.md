@@ -5,6 +5,7 @@ Para crear una tabla de una base de datos:
 CREATE TABLE Users(
 name VARCHAR(128)
 email VARCHAR(128)
+age INTEGER
 )
 ```
 Para seleccionar datos de una base de datos:
@@ -42,3 +43,19 @@ Operadores:
 	BETWEEN : entre un rango
 	LIKE: Busca un patrón
 	IN: Especifica varios valores
+Ordenar:
+```sql
+SELECT * FROM table_name ORDER BY columna1
+```
+Insertar fila:
+```sql
+INSERT INTO table_name (column1,column2) VALUES("","")
+```
+Eliminar fila:
+```sql
+DELETE FROM table_name WHERE  condition
+```
+Actualizar fila:
+```sql
+UPDATE table_name SET columna1='' WHERE condition
+```

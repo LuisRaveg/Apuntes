@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Agentes Inteligentes.md",
+                "file": "SQL.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Agentes Inteligentes"
+              "title": "SQL"
             }
           }
         ]
@@ -171,8 +171,8 @@
   },
   "active": "2a8bd3237840006b",
   "lastOpenFiles": [
-    "Análisis de ciencia de datos.md",
     "Agentes Inteligentes.md",
+    "Análisis de ciencia de datos.md",
     "Media/Pasted image 20250220092614.png",
     "Media",
     "SQL.md",
