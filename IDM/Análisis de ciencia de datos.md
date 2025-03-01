@@ -39,3 +39,43 @@ Sea (A) el número total de edificios, (a) el número de edificios seleccionados
 
 
 
+
+### Machine Learning
+Todos los enfoques de ML, aprenden un mapeo de entradas vs salidas
+$$y =f(\overline{x})$$
+$$f \rightarrow \{ w_1 ,\dots,w_{m} \}$$
+Problem: To compute  $$\overline {w }$$
+Supervised Learning:
+	1) Classification (Pattern Recognition)
+	$$ x \in \mathbb{R}^n , y \in \mathbb{Z}$$
+en el caso más sencillo:
+$$y\in \{ 0,1\}$$
+$$y=\overline{w}^T \overline{x} +b$$
+$$y=w_{1 } x_{1}+w_{2}x_{2}+b$$
+$$y=\sum _{i=1}^n w_{1}x_{1}+b$$
+con n=2:
+$$\overline {x} =\begin{pmatrix}
+ x_{1}\\ x_{2}
+\end{pmatrix}$$
+$$\overline {w} =\begin{pmatrix}
+ w_{1}\\ w_{2}
+\end{pmatrix}$$
+	2) Regression Forecasting
+		Si tenemos una representación grafíca de las entradas y salidas, podemos crear varios modelos
+		Modelo lineal:
+			$$y= w_{1}x_{1}+b$$
+		Modelo cuadrático:
+		$$y=w_{2}x_{1}^2 +w_{1}x_{1}+b$$
+		Hasta grado n
+
+Non Supervised Learning
+	3) Clustering
+		Si tenemos una representación solamente de las entradas x, tendremos que encontrar patrones.
+		$$x\in \mathbb{R}^n$$
+			k-means:
+			Agrupamos en k grupos dependiendo de sus medias.
+			
+Descenso del gradiente:
+La funcion de costo J(w) esta definida como:
+$$f_{w}(x_{i})=wx_{i}+b
+$$$$J(w)=\frac{1}{2m} \sum  _{i=1}^n (f_{w}(x_{i})-y_{i})^2$$
